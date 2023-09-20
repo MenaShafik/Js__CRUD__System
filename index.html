@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="keywords" content="">
+    <title>Home</title>
+    <!-- C  D  N -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+<section class="product">
+<div id="mina" class="container">
+  <h1>Product</h1>
+<label for="productName">product name</label>
+<input type="text" class="form-control" name="" id="productName">
+
+<label for="productPrice">product price</label>
+<input type="number" class="form-control" name="" id="productPrice" required>
+
+<label for="productCategory">product category</label>
+<input type="text" class="form-control" name="" id="productCategory">
+
+<label for="productDescription">product description</label>
+<input type="text" class="form-control" name="" id="productDescription">
+
+<label for="productDescription">count</label>
+<input type="number" class="form-control w-25" name="" id="productCount">
+<button onclick="validationWithAdd()" class="btn btn-info">add product</button>
+<button onclick="DeleteAll()" class="btn btn-danger">delete All</button>
+
+
+<input onkeyup="searchProduct(this.value)" type="search" class="form-control w-50 m-auto" name="" id="productSearch">
+<table class="table mt-5 text-center table-bordered">
+    <thead class="bg-dark text-white">
+        <th>id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Dategory</th>
+        <th>Description</th>
+        <th>Delete</th>
+        <th>Edit</th>
+    </thead>
+<tbody id="tBody">
+</tbody>
+</table>
+</div>
+</section> -->
+<!-- <section>
+    <div class="container">
+        <img id="demo" src="./img/giphy.gif" alt="">
+    </div>
+</section>
+ <div class="container">
+    <div class="row">
+        
+    </div>
+</div> -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

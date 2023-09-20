@@ -1,0 +1,20 @@
+body{
+    text-transform: capitalize;
+}
+label{
+    margin-top: 15px;
+}
+
+.btn{
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+/* body{
+    background-color: black;
+}
+.imgGif{
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 200px;
+} */
